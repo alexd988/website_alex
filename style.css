@@ -1,0 +1,232 @@
+
+/*ABOUT*/
+/* Fonts imported from the internet */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+
+body {
+    color: #fff;
+    background: #121212;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+@media screen and (min-width: 800px) {
+    .column {
+        flex: 1;
+    }
+    .footer {
+        height: 30vh;
+
+    }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav {
+    background-color: rgb(27, 27, 27);
+    overflow: hidden;
+    font-size: 40px;
+}
+
+/* .fa-bars {
+  color:rgb(240, 228, 235);
+  float: right;
+} */
+
+/* refers to class 'topnav' */
+/* 'a' for anchor tag styles the text inside link */
+.topnav a { 
+    float: left;
+    color: rgb(230, 198, 218);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+#homebutton{
+    float: right;
+    font-size: 80px;
+}
+
+.topnav a:hover {
+    background-color: rgb(65, 50, 60);
+    transition: 0.2s ease-in-out;
+}
+
+.container {
+    background-image: url(foldclub2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 100%;
+
+}
+
+/* refers to class 'hero' (meaning hero header)
+this formats oversized background image*/
+
+
+/* hero-copy formats main page title*/
+.hero-copy {
+    padding-top: em(70);
+    text-align:center;
+    color: white;
+    font-size: 200px;
+
+}
+
+.hero-copy a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-copy a:hover {
+    color:black;
+    -webkit-text-stroke-width: 0.0001rem;
+    -webkit-text-stroke-color: white;
+}
+
+.mailinglist {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+/*FOOTER*/
+.footer-container {
+    background-color: black;
+    padding: 0 0 0.5rem 0;
+
+}
+
+.footer {
+    width: 50%;
+    height: 100%;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 4rem;
+    text-align: center;
+}
+
+.footer-heading h4 {
+    margin-bottom: 2px;
+    font-size: 80px;
+}
+
+.footer-heading p {
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+.footer-submit {
+    margin-bottom: 2rem;
+    padding-bottom: 3rem;
+
+}
+
+#footer-email {
+    width: 600px;
+    height: 60px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1.5rem ;
+}
+
+#footer-email::placeholder {
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#footer-email-submit-btn {
+    width: 150px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+}
+
+#footer-email-submit-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    border: white 1px solid;
+    color: white;
+    transition: 0.15s ease-in;
+}
+
+
+/*EVENTS*/
+
+.event-container {
+
+}
+h2 {
+    font-size: 105px;
+}
+
+h4 {
+    font-size: 60px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: white solid 3px;
+    padding: 50px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+.eventbutton{
+    background-color:#fff;
+    border: none;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.column_75 {
+    width: 100%;
+}
+.column_25 {
+    padding-top: 500px;
+    padding: 2rem 6rem 2rem 0;
+    border-left: white 2px solid;
+}
